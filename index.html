@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+  <!-- Link to favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- Link to css -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Link fontawesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <title>Product list with cart</title>
+
+</head>
+<body>
+
+  <main class="container">
+    <h2 class="title">Desserts</h2>
+    <section class="products">
+      <!-- All the products will be rendered here using JS -->
+       
+    </section>
+
+    <!-- cart section -->
+    <aside class="cart">
+      <h2>Your Cart (<span class="cart-count">0</span>)</h2>
+      <div class="cart-items">
+        <!-- container to keep all the cart items -->
+        <p>Your cart is empty.</p>
+      </div>
+      <p class="cart-total">Total: $<span class="total-price">0.00</span></p>
+    </aside>
+  </main>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

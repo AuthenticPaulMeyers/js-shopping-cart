@@ -1,0 +1,16 @@
+.products{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+}
+
+.product-card{
+      border: 1px solid black;
+      margin: 10px;
+      width: 200px;
+      padding: 10px;
+}
+
+.cart-item{
+      display: flex;
+}
